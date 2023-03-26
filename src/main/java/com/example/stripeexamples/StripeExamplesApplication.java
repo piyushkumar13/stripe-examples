@@ -52,7 +52,7 @@ public class StripeExamplesApplication implements CommandLineRunner {
 //        String cardHolderIdWithActivation = cardHolderOperations.createCardHolderWithActivationSpendingLimitAndMetadata(idempotencyKey);
 //        System.out.println("The cardholder id with activation is :::: " + cardHolderIdWithActivation);
 
-//        String cardHolderIdForCompanyWithActivation = cardHolderOperations.createCardHolderWithActivationSpendingLimitForCompany("97d38bde-22c7-4713-acfa-18e3d96835ef");
+//        String cardHolderIdForCompanyWithActivation = cardHolderOperations.createCardHolderWithActivationSpendingLimitForCompany(idempotencyKey);
 //        System.out.println("The cardholder id for company with activation is :::: " + cardHolderIdForCompanyWithActivation);
 
         /*=================== Card Operations ============================= */
