@@ -1,0 +1,11 @@
+stripe:
+  apiKey: "Provide your key"
+  cardHolderId: "Provide CardHolder Id"
+  crediCard:
+    number: "Provide Credit Card Number"
+    cvc: "123"
+    expiryMonth: 02
+    expiryYear: 26
+    chargeAmount: 200
+  wehbhookSecretKey: "Provide Webhook Security Key"
+
